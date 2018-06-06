@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="firefoxTestCase(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.loginToPracto">
+        <methods>
+          <include name="startTest"/>
+          <include name="closeDrivers"/>
+        </methods>
+      </class> <!-- testCases.loginToPracto -->
+      <class name="testCases.safteyOfData">
+        <methods>
+          <include name="startTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- testCases.safteyOfData -->
+      <class name="testCases.searchDoctor">
+        <methods>
+          <include name="listoutDoctors"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- testCases.searchDoctor -->
+    </classes>
+  </test> <!-- firefoxTestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

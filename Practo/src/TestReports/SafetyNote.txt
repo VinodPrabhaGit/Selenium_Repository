@@ -1,0 +1,5 @@
+All data is private and for your eyes only
+No Practo employee can view the patient data
+We only send appointment-related messages
+We send promotional messages with an option to opt-out any time
+Data is never shared with a third party
